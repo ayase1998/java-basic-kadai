@@ -20,6 +20,7 @@ public class Kato_Chapter18 {
 	
 	//紹介を実行する
 	public void execIntroduce() {
-		System.out.println();
+		commonIntroduce();
+		eachIntroduce();
 	}
 }

@@ -14,15 +14,11 @@ public class KatoExec_Chapter18 {
 		katoHanako.setGivenName("花子");
 		
 		//execlntroduceメソッドの実行
-		katoTaro.commonIntroduce(); //太朗
-		katoTaro.eachIntroduce();
+		katoTaro.execIntroduce(); //太朗
 		
-		katoIchiro.commonIntroduce(); //一朗
-		katoIchiro.eachIntroduce();
+		katoIchiro.execIntroduce(); //一朗
 		
-		katoHanako.commonIntroduce(); //花子
-		katoHanako.eachIntroduce();
-		
+		katoHanako.execIntroduce(); //花子
 		
 	}
 
